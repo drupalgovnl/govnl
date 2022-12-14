@@ -1,0 +1,36 @@
+{
+  "name": "drupal/govnl",
+  "description": "GovNL Drupal Distibution",
+  "type": "drupal-profile",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://www.drupal.org/project/govnl",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
+    }
+  ],
+  "require": {
+    "drupal/core": "^10.0.0",
+    "drush/drush": ">=10"
+  },
+  "require-dev": {
+    "drupal/core-dev": "^10.0.0"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+    "sort-packages": true,
+    "allow-plugins": {
+      "phpstan/extension-installer": true,
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  },
+  "extra": {
+    "enable-patching": true,
+    "composer-exit-on-patch-failure": true,
+    "patchLevel": {
+      "drupal/core": "-p2"
+    }
+  }
+}
