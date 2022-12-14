@@ -1,5 +1,5 @@
 {
-  "name": "drupal/govnl",
+  "name": "drupalgovnl/govnl",
   "description": "GovNL Drupal Distribution",
   "type": "drupal-profile",
   "license": "GPL-2.0-or-later",
