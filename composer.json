@@ -1,6 +1,6 @@
 {
   "name": "drupal/govnl",
-  "description": "GovNL Drupal Distibution",
+  "description": "GovNL Drupal Distribution",
   "type": "drupal-profile",
   "license": "GPL-2.0-or-later",
   "homepage": "https://www.drupal.org/project/govnl",
