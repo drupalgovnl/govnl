@@ -2,5 +2,5 @@ name: GovNL
 type: profile
 description: "GovNL Drupal Distribution for Dutch government websites."
 core_version_requirement: ^10
-version: "1.0.x-dev"
 project: govnl
+license: EUPL-1.2
