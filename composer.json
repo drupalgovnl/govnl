@@ -2,7 +2,7 @@
   "name": "drupal/govnl",
   "description": "GovNL Drupal Distribution",
   "type": "drupal-profile",
-  "license": "GPL-2.0-or-later",
+  "license": "EUPL-1.2",
   "homepage": "https://www.drupal.org/project/govnl",
   "repositories": [
     {
