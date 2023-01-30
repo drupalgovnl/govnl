@@ -12,6 +12,7 @@
   ],
   "require": {
     "drupal/core": "^10.0.0",
+    "drupal/sitewide_alert": "^2.0",
     "drush/drush": ">=10"
   },
   "require-dev": {
