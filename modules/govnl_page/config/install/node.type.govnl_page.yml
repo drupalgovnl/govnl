@@ -1,0 +1,17 @@
+langcode: nl
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Pagina
+type: govnl_page
+description: 'Dit content type kan gebruikt worden voor een standaard pagina.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

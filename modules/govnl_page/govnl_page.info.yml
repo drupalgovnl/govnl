@@ -1,0 +1,11 @@
+name: 'GovNL - Node page'
+type: module
+description: 'This module ships the "govnl_page" content type and relating configuration.'
+package: GovNL
+core_version_requirement: ^9 || ^10
+dependencies:
+  - menu_ui
+  - node
+  - pathauto
+  - language
+
