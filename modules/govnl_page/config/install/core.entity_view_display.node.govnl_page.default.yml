@@ -1,0 +1,28 @@
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.field.node.govnl_page.body
+    - node.type.govnl_page
+  module:
+    - text
+    - user
+id: node.govnl_page.default
+targetEntityType: node
+bundle: govnl_page
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true
