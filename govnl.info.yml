@@ -2,5 +2,68 @@ name: GovNL
 type: profile
 description: "GovNL Drupal Distribution for Dutch government websites."
 core_version_requirement: ^10
-version: "1.0.x-dev"
 project: govnl
+license: EUPL-1.2
+
+install:
+  # Core
+  - drupal:automated_cron
+  - drupal:breakpoint
+  - drupal:block
+  - drupal:block_content
+  - drupal:ckeditor5
+  - drupal:config
+  - drupal:contextual
+  - drupal:datetime
+  - drupal:dblog
+  - drupal:dynamic_page_cache
+  - drupal:editor
+  - drupal:field_ui
+  - drupal:file
+  - drupal:help
+  - drupal:history
+  - drupal:image
+  - drupal:node
+  - drupal:menu_link_content
+  - drupal:menu_ui
+  - drupal:options
+  - drupal:page_cache
+  - drupal:path
+  - drupal:quickedit
+  - drupal:taxonomy
+  - drupal:toolbar
+  - drupal:views
+  - drupal:views_ui
+  # Contrib
+  - admin_toolbar:admin_toolbar
+  - admin_toolbar:admin_toolbar_tools
+  - entity_browser:entity_browser
+  - field_group:field_group
+  - token:token
+  - pathauto:pathauto
+  - metatag:metatag
+  - chosen:chosen
+  - redirect:redirect
+  - role_delegation:role_delegation
+  - username_enumeration_prevention:username_enumeration_prevention
+  - disable_user_1_edit:disable_user_1_edit
+  - rabbit_hole:rabbit_hole
+  - seckit:seckit
+  - remove_http_headers:remove_http_headers
+
+dependencies:
+  - field_group
+  - token
+  - pathauto
+  - metatag
+  - chosen
+  - redirect
+  - role_delegation
+  - username_enumeration_prevention
+  - disable_user_1_edit
+  - rabbit_hole
+  - seckit
+  - remove_http_headers
+  
+themes:
+  - claro
